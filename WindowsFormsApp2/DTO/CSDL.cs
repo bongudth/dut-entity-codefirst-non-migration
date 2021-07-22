@@ -1,6 +1,7 @@
 using System;
 using System.Data.Entity;
 using System.Linq;
+using WindowsFormsApp2.DTO;
 
 namespace WindowsFormsApp2
 {

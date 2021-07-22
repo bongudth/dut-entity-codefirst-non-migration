@@ -17,5 +17,9 @@ namespace WindowsFormsApp2.DTO
         {
             SVs = new HashSet<SV>();
         }
+        public override string ToString()
+        {
+            return NameLop;
+        }
     }
 }

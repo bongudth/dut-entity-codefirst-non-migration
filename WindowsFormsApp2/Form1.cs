@@ -15,6 +15,8 @@ namespace WindowsFormsApp2
         public Form1()
         {
             InitializeComponent();
+            CSDL db = new CSDL();
+            dataGridView1.DataSource = db.SVs.ToList();
         }
     }
 }
